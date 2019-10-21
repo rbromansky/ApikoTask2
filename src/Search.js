@@ -15,7 +15,12 @@ export const Search = ({ onSearch }) => {
 
   return (
     <Fragment>
-      <input className="button-input" {...{ value }} onChange={onChange} />
+      <input
+        className="button-input"
+        placeholder="Searh input"
+        {...{ value }}
+        onChange={onChange}
+      />
       <button className="button-input" onClick={onClick}>
         Search
       </button>
